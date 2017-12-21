@@ -1,0 +1,10 @@
+inherit_from: .rubocop_common.yml
+
+AllCops:
+  Exclude:
+  - 'vendor/**/*'
+  TargetRailsVersion: 3.2
+  TargetRubyVersion: 2.3
+
+Style/FrozenStringLiteralComment:
+  Enabled: true

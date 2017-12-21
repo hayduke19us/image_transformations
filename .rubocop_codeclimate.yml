@@ -1,0 +1,133 @@
+AllCops:
+  DisabledByDefault: true
+  TargetRailsVersion: 3.2
+  TargetRubyVersion: 2.3
+
+Rails:
+  Enabled: true
+
+Lint/AmbiguousOperator:
+  Enabled: true
+Lint/AssignmentInCondition:
+  Enabled: true
+Lint/BlockAlignment:
+  Enabled: true
+Lint/CircularArgumentReference:
+  Enabled: true
+Lint/ConditionPosition:
+  Enabled: true
+Lint/Debugger:
+  Enabled: true
+Lint/DefEndAlignment:
+  Enabled: true
+Lint/DeprecatedClassMethods:
+  Enabled: true
+Lint/DuplicateMethods:
+  Enabled: true
+Lint/EachWithObjectArgument:
+  Enabled: true
+Lint/ElseLayout:
+  Enabled: true
+Lint/EmptyEnsure:
+  Enabled: true
+Lint/EmptyInterpolation:
+  Enabled: true
+Lint/EndAlignment:
+  Enabled: true
+Lint/EndInMethod:
+  Enabled: true
+Lint/EnsureReturn:
+  Enabled: true
+Lint/FormatParameterMismatch:
+  Enabled: true
+Lint/HandleExceptions:
+  Enabled: true
+Lint/InvalidCharacterLiteral:
+  Enabled: true
+Lint/LiteralInCondition:
+  Enabled: true
+Lint/LiteralInInterpolation:
+  Enabled: true
+Lint/Loop:
+  Enabled: true
+Lint/NestedMethodDefinition:
+  Enabled: true
+Lint/NonLocalExitFromIterator:
+  Enabled: true
+Lint/ParenthesesAsGroupedExpression:
+  Enabled: true
+Lint/RequireParentheses:
+  Enabled: true
+Lint/RescueException:
+  Enabled: true
+Lint/ShadowingOuterLocalVariable:
+  Enabled: true
+Lint/StringConversionInInterpolation:
+  Enabled: true
+Lint/UnderscorePrefixedVariableName:
+  Enabled: true
+Lint/UnneededDisable:
+  Enabled: true
+Lint/UnreachableCode:
+  Enabled: true
+Lint/UnusedBlockArgument:
+  Enabled: true
+Lint/UnusedMethodArgument:
+  Enabled: true
+Lint/UselessAccessModifier:
+  Enabled: true
+Lint/UselessAssignment:
+  Enabled: true
+Lint/UselessComparison:
+  Enabled: true
+Lint/UselessElseWithoutRescue:
+  Enabled: true
+Lint/UselessSetterCall:
+  Enabled: true
+Lint/Void:
+  Enabled: true
+Metrics/BlockNesting:
+  Enabled: true
+  Max: 4
+Metrics/ClassLength:
+  Enabled: true
+  Max: 250
+Metrics/CyclomaticComplexity:
+  Enabled: true
+Metrics/LineLength:
+  Enabled: true
+  IgnoredPatterns:
+    - 'xpath:.*'
+  Max: 120
+  AllowHeredoc: true
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
+Metrics/MethodLength:
+  Enabled: true
+  Max: 30
+Metrics/ModuleLength:
+  Enabled: true
+  Max: 250
+Metrics/ParameterLists:
+  Enabled: true
+Performance/Count:
+  Enabled: true
+Performance/Detect:
+  Enabled: true
+Performance/FlatMap:
+  Enabled: true
+  EnabledForFlattenWithoutParams: false
+Performance/ReverseEach:
+  Enabled: true
+Performance/Sample:
+  Enabled: true
+Performance/Size:
+  Enabled: true
+Performance/StringReplacement:
+  Enabled: true
+Security/Eval:
+  Enabled: true
+Style/SpaceBeforeFirstArg:
+  Enabled: true
